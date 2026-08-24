@@ -1,0 +1,17 @@
+{
+  "model_name": "YOLOv11x-Warehouse-Verification",
+  "version": "2.0.0",
+  "architecture": "YOLOv11-ExtraLarge",
+  "framework": "PyTorch / ONNX Runtime",
+  "input_resolution": [1080, 1920, 3],
+  "confidence_threshold": 0.70,
+  "nms_iou_threshold": 0.45,
+  "classes": [
+    { "id": "PRD-CEMENT", "name": "Cement bags", "color": "#00F0FF" },
+    { "id": "PRD-STEEL", "name": "Steel rods", "color": "#FFB800" },
+    { "id": "PRD-PAINT", "name": "Paint buckets", "color": "#FF0055" },
+    { "id": "PRD-BOXES", "name": "Boxes", "color": "#00FF66" },
+    { "id": "PRD-PIPES", "name": "Pipes", "color": "#B026FF" },
+    { "id": "PRD-MEDS", "name": "Medicine cartons", "color": "#00E5FF" }
+  ]
+}
